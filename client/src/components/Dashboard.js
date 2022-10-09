@@ -6,9 +6,11 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-        <SurveyList />
+        <div>
+          <SurveyList />
+        </div>
         <Link
-          to="/surveys/new"
+          to="/surveys/new/"
           className="btn-floating btn-large waves-effect"
           style={{ position: "absolute", bottom: "50px", right: "50px" }}
         >
